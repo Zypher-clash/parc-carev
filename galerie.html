@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Galerie officielle de Parc Carev — Kimpese, RDC."
+    >
+
+    <title>Galerie — PARC CAREV</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         LOADING
+    ========================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-logo">
+            PARC CAREV
+        </div>
+
+        <div class="loader-line"></div>
+
+    </div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            PARC<span>CAREv</span>
+        </a>
+
+        <nav class="desktop-nav">
+
+            <a href="index.html">
+                Accueil
+            </a>
+
+            <a href="hebergement.html">
+                Hébergement
+            </a>
+
+            <a href="restaurant.html">
+                Restaurant
+            </a>
+
+            <a href="piscine.html">
+                Piscine
+            </a>
+
+            <a href="sport.html">
+                Sport
+            </a>
+
+            <a href="evenements.html">
+                Événements
+            </a>
+
+            <a href="galerie.html" class="active">
+                Galerie
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+        <a
+            href="contact.html"
+            class="nav-button"
+        >
+            Réserver
+        </a>
+
+        <button
+            class="menu-button"
+            id="menuButton"
+            aria-label="Ouvrir le menu"
+        >
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MOBILE MENU
+    ========================== -->
+
+    <div
+        class="mobile-menu"
+        id="mobileMenu"
+    >
+
+        <a href="index.html">
+            Accueil
+        </a>
+
+        <a href="hebergement.html">
+            Hébergement
+        </a>
+
+        <a href="restaurant.html">
+            Restaurant
+        </a>
+
+        <a href="piscine.html">
+            Piscine
+        </a>
+
+        <a href="sport.html">
+            Sport
+        </a>
+
+        <a href="evenements.html">
+            Événements
+        </a>
+
+        <a href="galerie.html">
+            Galerie
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </div>
+
+
+    <!-- =========================
+         HERO GALERIE
+    ========================== -->
+
+    <main>
+
+        <section class="hero gallery-hero">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="hero-content">
+
+                <div class="hero-tag">
+                    PARC CAREV • GALERIE
+                </div>
+
+                <h1>
+                    Découvrez
+                    <span>Parc Carev.</span>
+                </h1>
+
+                <p>
+                    Explorez les espaces, l'ambiance et
+                    les différents univers de Parc Carev
+                    à travers notre galerie.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a
+                        href="#galerie"
+                        class="primary-button"
+                    >
+                        Explorer la galerie
+                        <span>↓</span>
+                    </a>
+
+                    <a
+                        href="contact.html"
+                        class="secondary-button"
+                    >
+                        Nous contacter
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="hero-card-top">
+
+                    <span>
+                        PARC CAREV
+                    </span>
+
+                    <span>
+                        ✦
+                    </span>
+
+                </div>
+
+                <div class="hero-card-bottom">
+
+                    <span>
+                        Galerie
+                    </span>
+
+                    <span>
+                        Kimpese • RDC
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTRODUCTION
+        ========================== -->
+
+        <section class="section intro">
+
+            <div class="section-label">
+                01 — PARC CAREV
+            </div>
+
+            <div class="intro-content">
+
+                <h2>
+                    Entrez dans
+                    <span>l'univers.</span>
+                </h2>
+
+                <p>
+                    Découvrez les différents espaces de
+                    Parc Carev et plongez dans l'atmosphère
+                    du lieu avant même votre visite.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALERIE
+        ========================== -->
+
+        <section
+            class="section gallery-section"
+            id="galerie"
+        >
+
+            <div class="section-heading">
+
+                <div class="section-label">
+                    02 — GALERIE
+                </div>
+
+                <h2>
+                    Quelques images
+                    <span>du lieu.</span>
+                </h2>
+
+            </div>
+
+
+            <!-- FILTRES -->
+
+            <div class="gallery-filters">
+
+                <button
+                    class="gallery-filter active"
+                    data-filter="all"
+                >
+                    Tout
+                </button>
+
+                <button
+                    class="gallery-filter"
+                    data-filter="chambre"
+                >
+                    Chambres
+                </button>
+
+                <button
+                    class="gallery-filter"
+                    data-filter="restaurant"
+                >
+                    Restaurant
+                </button>
+
+                <button
+                    class="gallery-filter"
+                    data-filter="exterieur"
+                >
+                    Extérieur
+                </button>
+
+                <button
+                    class="gallery-filter"
+                    data-filter="piscine"
+                >
+                    Piscine
+                </button>
+
+                <button
+                    class="gallery-filter"
+                    data-filter="evenement"
+                >
+                    Événements
+                </button>
+
+            </div>
+
+
+            <!-- GRILLE -->
+
+            <div class="gallery-grid">
+
+
+                <!-- =====================
+                     PHOTO CHAMBRE
+                ====================== -->
+
+                <article
+                    class="gallery-item gallery-featured"
+                    data-category="chambre"
+                    data-image="images/chambre.jpg"
+                >
+
+                    <img
+                        src="images/chambre.jpg"
+                        alt="Chambre de Parc Carev"
+                        loading="lazy"
+                    >
+
+                    <div class="gallery-overlay">
+
+                        <span class="gallery-category">
+                            HÉBERGEMENT
+                        </span>
+
+                        <h3>
+                            Les chambres
+                        </h3>
+
+                        <span class="gallery-open">
+                            Voir en grand ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =====================
+                     PHOTO RESTAURANT
+                ====================== -->
+
+                <article
+                    class="gallery-item"
+                    data-category="restaurant"
+                    data-image="images/restaurant.jpg"
+                >
+
+                    <img
+                        src="images/restaurant.jpg"
+                        alt="Restaurant de Parc Carev"
+                        loading="lazy"
+                    >
+
+                    <div class="gallery-overlay">
+
+                        <span class="gallery-category">
+                            RESTAURANT
+                        </span>
+
+                        <h3>
+                            L'espace restaurant
+                        </h3>
+
+                        <span class="gallery-open">
+                            Voir en grand ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =====================
+                     PHOTO EXTÉRIEUR
+                ====================== -->
+
+                <article
+                    class="gallery-item"
+                    data-category="exterieur"
+                    data-image="images/exterieur.jpg"
+                >
+
+                    <img
+                        src="images/exterieur.jpg"
+                        alt="Espace extérieur de Parc Carev"
+                        loading="lazy"
+                    >
+
+                    <div class="gallery-overlay">
+
+                        <span class="gallery-category">
+                            EXTÉRIEUR
+                        </span>
+
+                        <h3>
+                            L'espace extérieur
+                        </h3>
+
+                        <span class="gallery-open">
+                            Voir en grand ↗
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =====================
+                     EMPLACEMENT PISCINE
+                ====================== -->
+
+                <article
+                    class="gallery-item gallery-placeholder"
+                    data-category="piscine"
+                >
+
+                    <div class="placeholder-content">
+
+                        <span>
+                            04
+                        </span>
+
+                        <h3>
+                            Piscine
+                        </h3>
+
+                        <p>
+                            Photo officielle à ajouter
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =====================
+                     EMPLACEMENT ÉVÉNEMENT
+                ====================== -->
+
+                <article
+                    class="gallery-item gallery-placeholder"
+                    data-category="evenement"
+                >
+
+                    <div class="placeholder-content">
+
+                        <span>
+                            05
+                        </span>
+
+                        <h3>
+                            Événements
+                        </h3>
+
+                        <p>
+                            Photos officielles à ajouter
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =====================
+                     EMPLACEMENT SPORT
+                ====================== -->
+
+                <article
+                    class="gallery-item gallery-placeholder"
+                    data-category="sport"
+                >
+
+                    <div class="placeholder-content">
+
+                        <span>
+                            06
+                        </span>
+
+                        <h3>
+                            Sport & loisirs
+                        </h3>
+
+                        <p>
+                            Photos officielles à ajouter
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="section reservation">
+
+            <div class="reservation-content">
+
+                <div class="section-label">
+                    03 — VOTRE VISITE
+                </div>
+
+                <h2>
+                    Vous voulez
+                    <span>découvrir Parc Carev ?</span>
+                </h2>
+
+                <p>
+                    Consultez nos espaces, découvrez
+                    nos services et contactez-nous pour
+                    préparer votre visite.
+                </p>
+
+                <div class="reservation-actions">
+
+                    <a
+                        href="contact.html"
+                        class="primary-button"
+                    >
+                        Nous contacter
+                        <span>→</span>
+                    </a>
+
+                    <a
+                        href="index.html"
+                        class="secondary-button"
+                    >
+                        Retour à l'accueil
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         LIGHTBOX
+    ========================== -->
+
+    <div
+        class="gallery-lightbox"
+        id="galleryLightbox"
+        aria-hidden="true"
+    >
+
+        <button
+            class="lightbox-close"
+            id="lightboxClose"
+            aria-label="Fermer"
+        >
+            ×
+        </button>
+
+        <button
+            class="lightbox-prev"
+            id="lightboxPrev"
+            aria-label="Image précédente"
+        >
+            ‹
+        </button>
+
+        <div class="lightbox-content">
+
+            <img
+                id="lightboxImage"
+                src=""
+                alt=""
+            >
+
+            <div
+                class="lightbox-caption"
+                id="lightboxCaption"
+            ></div>
+
+        </div>
+
+        <button
+            class="lightbox-next"
+            id="lightboxNext"
+            aria-label="Image suivante"
+        >
+            ›
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-logo">
+            PARC CAREV
+        </div>
+
+        <p>
+            Kimpese • République démocratique du Congo
+        </p>
+
+        <div class="footer-links">
+
+            <a href="index.html">
+                Accueil
+            </a>
+
+            <a href="hebergement.html">
+                Hébergement
+            </a>
+
+            <a href="restaurant.html">
+                Restaurant
+            </a>
+
+            <a href="piscine.html">
+                Piscine
+            </a>
+
+            <a href="sport.html">
+                Sport
+            </a>
+
+            <a href="evenements.html">
+                Événements
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            © 2026 PARC CAREV — Tous droits réservés.
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
+    <script src="js/main.js"></script>
+
+</body>
+
+      </html>
