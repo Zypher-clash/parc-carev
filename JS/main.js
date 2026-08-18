@@ -305,4 +305,4 @@ document.addEventListener("DOMContentLoaded", () => {
 .reveal.revealed {
     opacity: 1;
     transform: translateY(0);
-                          }
+}
